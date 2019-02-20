@@ -1,16 +1,11 @@
+# queueing-car-hailing
+Source code of queueing-based vehicle dispatching framework
+
 
 ### NewYork Data
 
 http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
 
-
-### Exp
-
-#### 0. BJTaxi 
-
-#### 1. HA
-
-#### 2. NYTaxi
 
 ##### 1. build adj mat
 
@@ -19,3 +14,5 @@ cd preprocess
 python newyork_adjacency.py ny.adj ny.adj.npy
 
 `
+
+Download the data set from NewYork Taxi data set and put them in 'dataset/raw_data/*'
